@@ -1,0 +1,34 @@
+{
+  "name": "mammoth",
+  "version": "1.0.0",
+  "description": "Open source social network",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryannhg/mammoth.git"
+  },
+  "keywords": [
+    "mammoth",
+    "social",
+    "network"
+  ],
+  "author": "Ryan Haskell-Glatz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryannhg/mammoth/issues"
+  },
+  "homepage": "https://github.com/ryannhg/mammoth#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-elm": "^0.6.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-watch": "^4.3.11",
+    "nodemon": "^1.11.0"
+  }
+}
