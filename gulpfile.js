@@ -33,7 +33,8 @@ gulp.task('elm-init', elm.init)
 gulp.task('elm', ['elm-init'], () =>
   gulp
     .src(paths.elm.in)
-    .pipe(elm())
+    .pipe(elm({ debug: process.env.NODE_ENV !== 'production' }))
+    .on('error', console.error)
     .pipe(gulp.dest(distDirectory + 'public/'))
 )
 
